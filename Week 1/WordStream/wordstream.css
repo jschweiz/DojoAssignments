@@ -1,0 +1,138 @@
+#can{
+	width: 970px;
+	min-height: 100px;
+	margin: 0 auto;
+	outline: 1px dashed red;
+}
+#lt, #main{
+	display: inline-block;
+	min-height: 500px;
+	vertical-align: top;
+}
+#head{
+	color: white;
+}
+.head-spacer{
+	width: 440px;
+	display: inline-block;
+}
+.nav{
+	display: inline-block;
+	text-align: right;
+	padding-left: 440px;
+}
+.nav ul{
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	border-top: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.nav li, .nav ul{
+	display: inline-block;
+	color: #AAA;
+	font-size: .8em;
+	padding: 0 10px 0 10px;
+	margin-bottom: 8px;
+}
+.nav-item{
+	border-left: 1px solid gray;
+}
+.nav input{
+	background-color: #007DC0;
+	border-radius: 3px;
+	color: white;
+	padding: 3px 15px;
+	margin-left: 15px;
+}
+h1.brand{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	padding: 12px;
+	font-weight: 400;
+}
+.title-word{
+	color: gray;
+}
+div.blu h2{
+	background-color: #007DC0;
+	padding: 10px;
+	font-weight: 300;
+	margin: 0 0 10px 0;
+}
+#lt{
+	max-width: 240px;
+}
+#main{
+	max-width: 700px;
+}
+/*.breadcrumb{
+	text-decoration: none;
+	vertical-align: top;
+	padding-left: 8px;
+}*/
+#main ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+#main ul li ul li{
+	display: block;
+	color: gray;
+	font-size: .8em;
+}
+.ph{
+	color: #2DA2CD;
+	font-size: 2.25em;
+	line-height: 1.1em;
+}
+.list-space{
+	width: 300px;
+}
+.strong{
+	font-weight: bold;
+}
+#main a, #main h3, #main h4, #lt a, #lt h3, h1.brand{
+	color: #007DC0;
+}
+#ad-main{
+	border: 5px solid #2DA2CD;
+	width: 90%;
+	padding: 5px;
+	padding-bottom: 15px;
+}
+#ad-main h4{
+	display: inline;
+	vertical-align: top;
+}
+#ad-main img{
+	padding-right: 15px;
+}
+#ad-main .btn{
+	background-color: green;
+	border-radius: 5px;
+	border: 2px solid black;
+	margin: 0 0 10px 74px;
+	text-decoration: none;
+	color: white;
+	padding: 7px 20px;
+}
+body {
+	font-family: sans-serif;
+}
+div{
+	/*outline: 1px dashed blue;*/
+}
+img{
+	/*outline: 1px dashed green;*/
+}
+p, li{
+	line-height: 1.5;
+	font-size: .8em;
+}
+p, li, h1:h6, a{
+	font-family: Verdana,Geneva,sans-serif;
+}
+hr{
+	border: 1px solid #DDD;
+}
