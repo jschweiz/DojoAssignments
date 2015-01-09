@@ -1,12 +1,9 @@
 #can{
 	width: 970px;
-	min-height: 100px;
 	margin: 0 auto;
-	outline: 1px dashed red;
 }
 #lt, #main{
 	display: inline-block;
-	min-height: 500px;
 	vertical-align: top;
 }
 #head{
@@ -63,18 +60,24 @@ div.blu h2{
 }
 #lt{
 	max-width: 240px;
+	margin: 50px 10px;
+}
+#lt h5{
+	color: #C93E1C;
+	margin-bottom: 0;
+}
+#lt p{
+	margin-top: 5px;
 }
 #main{
 	max-width: 700px;
 }
-/*.breadcrumb{
-	text-decoration: none;
-	vertical-align: top;
-	padding-left: 8px;
-}*/
 #main ul li{
 	display: inline-block;
 	vertical-align: top;
+}
+#main ul li ul{
+	padding-left: 10px;
 }
 #main ul li ul li{
 	display: block;
@@ -87,12 +90,16 @@ div.blu h2{
 	line-height: 1.1em;
 }
 .list-space{
-	width: 300px;
+	width: 390px;
+}
+.list-space a{
+	text-decoration: none;
+	padding-left: 3px;
 }
 .strong{
 	font-weight: bold;
 }
-#main a, #main h3, #main h4, #lt a, #lt h3, h1.brand{
+#main a, #main h3, #main h4, #lt a, #lt h3, #lt h4, h1.brand{
 	color: #007DC0;
 }
 #ad-main{
@@ -100,6 +107,7 @@ div.blu h2{
 	width: 90%;
 	padding: 5px;
 	padding-bottom: 15px;
+	font-family: Arial;
 }
 #ad-main h4{
 	display: inline;
@@ -109,7 +117,7 @@ div.blu h2{
 	padding-right: 15px;
 }
 #ad-main .btn{
-	background-color: green;
+	background-color: #A0BD31;
 	border-radius: 5px;
 	border: 2px solid black;
 	margin: 0 0 10px 74px;
@@ -117,8 +125,44 @@ div.blu h2{
 	color: white;
 	padding: 7px 20px;
 }
+#lt .btn{
+	background-color: #126092;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	padding: 7px 20px;
+	margin-bottom: 5px;
+	display: block;
+	text-align: center;
+}
+#lt .btn1{
+	background-color: #209FE1;
+}
+#lt .btn2{
+	background-color: #F27A21;
+}
+#lt hr{
+	width: 100%;
+}
+.lt-ad-btn{
+	font-size: .92em;
+	background-color: #126092;
+}
+.lt-ad{
+	background-color: gray;
+	background-image: url("img/left_content_ad.png");
+	background-repeat: none;
+	background-position: top left;
+	height: 240px;
+	width: 178px;
+	position: relative;
+	padding: 1px 10px;
+	color: #474747;
+}
+.ctr{
+	text-align: center;
+}
 body {
-	font-family: sans-serif;
 }
 div{
 	/*outline: 1px dashed blue;*/
@@ -135,4 +179,6 @@ p, li, h1:h6, a{
 }
 hr{
 	border: 1px solid #DDD;
+	width: 95%;
+	margin: 12px 0;
 }
