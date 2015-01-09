@@ -6,9 +6,6 @@
 	display: inline-block;
 	vertical-align: top;
 }
-#head{
-	color: white;
-}
 .head-spacer{
 	width: 440px;
 	display: inline-block;
@@ -52,11 +49,12 @@ h1.brand{
 .title-word{
 	color: gray;
 }
-div.blu h2{
+.blu h2{
 	background-color: #007DC0;
 	padding: 10px;
 	font-weight: 300;
 	margin: 0 0 10px 0;
+	color: white;
 }
 #lt{
 	max-width: 240px;
@@ -72,9 +70,18 @@ div.blu h2{
 #main{
 	max-width: 700px;
 }
+#main div ul li:before{
+	color: #007DC0;
+	content: "\25AA";
+	font-size: 1.5em;
+	padding-right: .25em;
+	margin-left: -12px;
+}
+#main div ul{
+	padding-left: 15px;
+}
 #main ul li{
 	display: inline-block;
-	vertical-align: top;
 }
 #main ul li ul{
 	padding-left: 10px;
@@ -115,6 +122,7 @@ div.blu h2{
 }
 #ad-main img{
 	padding-right: 15px;
+	float: left;
 }
 #ad-main .btn{
 	background-color: #A0BD31;
@@ -145,19 +153,19 @@ div.blu h2{
 	width: 100%;
 }
 .lt-ad-btn{
-	font-size: .92em;
 	background-color: #126092;
+	font-size: .85em;
 }
 .lt-ad{
 	background-color: gray;
 	background-image: url("img/left_content_ad.png");
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-position: top left;
-	height: 240px;
+	height: 239px;
 	width: 178px;
-	position: relative;
 	padding: 1px 10px;
 	color: #474747;
+	font-size: .9em;
 }
 .ctr{
 	text-align: center;
@@ -174,7 +182,7 @@ p, li{
 	line-height: 1.5;
 	font-size: .8em;
 }
-p, li, h1:h6, a{
+p, li, h1, h2, h3, h4, h5, h6, a{
 	font-family: Verdana,Geneva,sans-serif;
 }
 hr{
